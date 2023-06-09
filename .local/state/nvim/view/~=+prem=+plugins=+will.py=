@@ -1,0 +1,58 @@
+let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+33,36fold
+57,58fold
+55,59fold
+64,77fold
+38,89fold
+113,114fold
+111,115fold
+95,129fold
+151,152fold
+149,153fold
+133,168fold
+190,191fold
+188,192fold
+172,207fold
+227,228fold
+225,229fold
+209,244fold
+32,244fold
+253,256fold
+277,278fold
+275,279fold
+284,297fold
+258,313fold
+337,338fold
+335,339fold
+319,354fold
+376,377fold
+374,378fold
+358,393fold
+415,416fold
+413,417fold
+397,432fold
+452,453fold
+450,454fold
+434,469fold
+252,469fold
+475,477fold
+let &fdl = &fdl
+let s:l = 112 - ((13 * winheight(0) + 25) / 51)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 112
+normal! 04|
+let &g:so = s:so_save | let &g:siso = s:siso_save
+doautoall SessionLoadPost
+" vim: set ft=vim :

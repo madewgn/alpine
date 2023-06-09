@@ -1,0 +1,22 @@
+Wget is already installed
+curl is already installed
+Checking...
+Checking...
+Script Active !
+IP Address Accepted
+Client Name Accepted
+
+━━━━━━━━━━━━━━━━━━━━
+━━━[XRAY/TROJAN_WS]━━━
+━━━━━━━━━━━━━━━━━━━━
+Remarks : djavzshsbabnsb
+IP Address : 165.232.168.48
+Domain : vpn.madewgn.eu.org
+Port TLS : 443
+Password : d34e7659-66e7-45b0-962b-656df9a40cb4
+Network : Websocket
+Websocket Path : /trojanws
+━━━━━━━━━━━━━━━━━━━━
+LINK WS TLS : trojan://d34e7659-66e7-45b0-962b-656df9a40cb4@vpn.madewgn.eu.org:443?path=/trojanws&security=tls&host=vpn.madewgn.eu.org&type=ws&sni=vpn.madewgn.eu.org#djavzshsbabnsb
+━━━━━━━━━━━━━━━━━━━━
+EXPIRED ON : 2023-05-26

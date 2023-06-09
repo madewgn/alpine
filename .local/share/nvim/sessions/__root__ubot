@@ -1,0 +1,71 @@
+let SessionLoad = 1
+let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+let v:this_session=expand("<sfile>:p")
+silent only
+silent tabonly
+cd ~/ubot
+if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
+  let s:wipebuf = bufnr('%')
+endif
+let s:shortmess_save = &shortmess
+if &shortmess =~ 'A'
+  set shortmess=aoOA
+else
+  set shortmess=aoO
+endif
+badd +136 bot.py
+argglobal
+%argdel
+edit bot.py
+argglobal
+setlocal fdm=manual
+setlocal fde=0
+setlocal fmr={{{,}}}
+setlocal fdi=#
+setlocal fdl=99
+setlocal fml=1
+setlocal fdn=20
+setlocal fen
+silent! normal! zE
+8,13fold
+18,19fold
+23,24fold
+30,38fold
+29,39fold
+44,47fold
+43,48fold
+54,61fold
+53,62fold
+69,88fold
+68,89fold
+108,117fold
+96,118fold
+135,144fold
+123,145fold
+164,173fold
+152,174fold
+194,204fold
+181,205fold
+let &fdl = &fdl
+let s:l = 136 - ((32 * winheight(0) + 25) / 51)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 136
+normal! 012|
+tabnext 1
+if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
+  silent exe 'bwipe ' . s:wipebuf
+endif
+unlet! s:wipebuf
+set winheight=1 winwidth=20
+let &shortmess = s:shortmess_save
+let s:sx = expand("<sfile>:p:r")."x.vim"
+if filereadable(s:sx)
+  exe "source " . fnameescape(s:sx)
+endif
+let &g:so = s:so_save | let &g:siso = s:siso_save
+nohlsearch
+doautoall SessionLoadPost
+unlet SessionLoad
+" vim: set ft=vim :

@@ -1,0 +1,12 @@
+[INFO  Sun May 14 05:15:37 2023] ...ck/lazy/opt/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=bash-language-server) {}
+[INFO  Sun May 14 05:15:46 2023] ...ck/lazy/opt/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=bash-language-server)
+[INFO  Sun May 14 05:16:11 2023] ...ck/lazy/opt/mason.nvim/lua/mason-core/installer/init.lua:166: Executing installer for Package(name=pyright) {}
+[INFO  Sun May 14 05:16:18 2023] ...ck/lazy/opt/mason.nvim/lua/mason-core/installer/init.lua:193: Installation succeeded for Package(name=pyright)
+[INFO  Fri May 19 01:14:59 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=marksman)
+[INFO  Fri May 19 01:15:09 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:150: Installation succeeded for Package(name=marksman)
+[INFO  Fri May 19 01:15:51 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=lua-language-server)
+[INFO  Fri May 19 01:15:54 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:150: Installation succeeded for Package(name=lua-language-server)
+[INFO  Fri May 19 01:17:08 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=lua-language-server)
+[INFO  Fri May 19 01:17:10 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:150: Installation succeeded for Package(name=lua-language-server)
+[INFO  Sat May 27 13:24:30 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:118: Executing installer for Package(name=vim-language-server)
+[INFO  Sat May 27 13:24:35 2023] ...acker/start/mason.nvim/lua/mason-core/installer/init.lua:150: Installation succeeded for Package(name=vim-language-server)

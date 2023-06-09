@@ -1,0 +1,77 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.1.2
+2 info using node@v18.16.0
+3 timing npm:load:whichnode Completed in 19ms
+4 timing config:load:defaults Completed in 9ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/root/.local/share/nvim/mason/.packages/pyright/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/root/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 0ms
+16 timing config:load Completed in 17ms
+17 timing npm:load:configload Completed in 17ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install pyright@1.1.308
+21 verbose argv "install" "pyright@1.1.308"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 3ms
+24 timing npm:load:display Completed in 4ms
+25 verbose logfile logs-max:10 dir:/root/.npm/_logs/2023-05-14T05_16_12_646Z-
+26 verbose logfile /root/.npm/_logs/2023-05-14T05_16_12_646Z-debug-0.log
+27 timing npm:load:logFile Completed in 4ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 47ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 0ms
+33 timing arborist:ctor Completed in 1ms
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 12ms
+36 timing idealTree:userRequests Completed in 3ms
+37 silly idealTree buildDeps
+38 silly fetch manifest pyright@1.1.308
+39 http fetch GET 200 https://registry.npmjs.org/pyright 1075ms (cache miss)
+40 silly placeDep ROOT pyright@1.1.308 OK for: @mason/pyright@1.0.0 want: 1.1.308
+41 timing idealTree:#root Completed in 1090ms
+42 timing idealTree:node_modules/pyright Completed in 0ms
+43 timing idealTree:buildDeps Completed in 1099ms
+44 timing idealTree:fixDepFlags Completed in 0ms
+45 timing idealTree Completed in 1116ms
+46 timing reify:loadTrees Completed in 1117ms
+47 timing reify:diffTrees Completed in 0ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 1ms
+50 timing reify:createSparse Completed in 4ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request { pyright: [ '1.1.308' ] }
+53 silly tarball no local data for pyright@https://registry.npmjs.org/pyright/-/pyright-1.1.308.tgz. Extracting by manifest.
+54 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 292ms
+55 timing auditReport:getReport Completed in 294ms
+56 silly audit report {}
+57 timing auditReport:init Completed in 0ms
+58 timing reify:audit Completed in 296ms
+59 http fetch GET 200 https://registry.npmjs.org/pyright/-/pyright-1.1.308.tgz 3717ms (cache miss)
+60 timing reifyNode:node_modules/pyright Completed in 3746ms
+61 timing reify:unpack Completed in 3747ms
+62 timing reify:unretire Completed in 0ms
+63 timing build:queue Completed in 9ms
+64 timing build:link:node_modules/pyright Completed in 3ms
+65 timing build:link Completed in 3ms
+66 timing build:deps Completed in 13ms
+67 timing build Completed in 14ms
+68 timing reify:build Completed in 14ms
+69 timing reify:trash Completed in 0ms
+70 timing reify:save Completed in 20ms
+71 timing reify Completed in 4915ms
+72 silly ADD node_modules/pyright
+73 timing command:install Completed in 4930ms
+74 verbose exit 0
+75 timing npm Completed in 4992ms
+76 info ok

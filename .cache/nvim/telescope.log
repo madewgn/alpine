@@ -1,0 +1,9 @@
+[WARN  Fri May 19 01:31:04 2023] ...ck/packer/start/telescope.nvim/lua/telescope/pickers.lua:489: Finder failed with msg:  ...ite/pack/packer/start/telescope.nvim/lua/telescope/_.lua:297: rg: Executable not found
+stack traceback:
+	...ite/pack/packer/start/telescope.nvim/lua/telescope/_.lua:297: in function 'convert_opts'
+	...ite/pack/packer/start/telescope.nvim/lua/telescope/_.lua:17: in function 'new'
+	...ite/pack/packer/start/telescope.nvim/lua/telescope/_.lua:63: in function 'spawn'
+	...elescope.nvim/lua/telescope/finders/async_job_finder.lua:49: in function 'finder'
+	...ck/packer/start/telescope.nvim/lua/telescope/pickers.lua:485: in function <...ck/packer/start/telescope.nvim/lua/telescope/pickers.lua:484>
+	[C]: in function 'pcall'
+	...ck/packer/start/telescope.nvim/lua/telescope/pickers.lua:484: in function <...ck/packer/start/telescope.nvim/lua/telescope/pickers.lua:450>

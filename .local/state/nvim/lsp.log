@@ -1,0 +1,35 @@
+[START][2023-05-14 05:15:47] LSP logging initiated
+[WARN][2023-05-14 05:15:47] ...lsp/handlers.lua:487	"05:15:47.914 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[START][2023-05-19 01:15:54] LSP logging initiated
+[ERROR][2023-05-19 01:15:54] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[START][2023-05-19 01:20:18] LSP logging initiated
+[ERROR][2023-05-19 01:20:18] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[START][2023-05-19 01:30:43] LSP logging initiated
+[ERROR][2023-05-19 01:30:43] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[ERROR][2023-05-19 01:31:20] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[ERROR][2023-05-19 01:31:27] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[START][2023-05-20 23:13:13] LSP logging initiated
+[WARN][2023-05-20 23:13:13] ...lsp/handlers.lua:487	"23:13:13.873 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: globPattern"
+[WARN][2023-05-20 23:13:14] ...lsp/handlers.lua:487	"23:13:14.542 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[START][2023-05-20 23:34:20] LSP logging initiated
+[WARN][2023-05-20 23:34:20] ...lsp/handlers.lua:487	"23:34:20.912 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: globPattern"
+[WARN][2023-05-20 23:34:21] ...lsp/handlers.lua:487	"23:34:21.560 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[WARN][2023-05-20 23:39:25] ...lsp/handlers.lua:487	"23:39:25.369 WARNING ⛔️ file:///root/xray/minacantik/add-ws.sh line 70: failed to resolve path"
+[WARN][2023-05-20 23:39:58] ...lsp/handlers.lua:487	"23:39:58.220 WARNING ⛔️ file:///root/xray/minacantik/add-ws.sh line 70: failed to resolve path"
+[WARN][2023-05-20 23:40:06] ...lsp/handlers.lua:487	"23:40:06.404 WARNING ⛔️ file:///root/xray/minacantik/add-tr.sh line 61: failed to resolve path"
+[WARN][2023-05-20 23:40:13] ...lsp/handlers.lua:487	"23:40:13.512 WARNING ⛔️ file:///root/xray/minacantik/add-tr.sh line 61: failed to resolve path"
+[START][2023-05-21 00:22:02] LSP logging initiated
+[WARN][2023-05-21 00:22:02] ...lsp/handlers.lua:487	"00:22:02.829 WARNING ⛔️ Environment variable configuration is being deprecated, please use workspace configuration. The following environment variables were used: globPattern"
+[WARN][2023-05-21 00:22:03] ...lsp/handlers.lua:487	"00:22:02.968 WARNING ⛔️ file:///root/xray/minacantik/add-ws.sh line 70: failed to resolve path"
+[WARN][2023-05-21 00:22:03] ...lsp/handlers.lua:487	"00:22:03.477 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[WARN][2023-05-21 00:23:11] ...lsp/handlers.lua:487	"00:23:11.472 WARNING ⛔️ file:///root/xray/minacantik/add-tr.sh line 61: failed to resolve path"
+[START][2023-05-28 09:26:21] LSP logging initiated
+[ERROR][2023-05-28 09:26:21] .../vim/lsp/rpc.lua:733	"rpc"	"lua-language-server"	"stderr"	"/root/.local/share/nvim/mason/bin/lua-language-server: line 3: /root/.local/share/nvim/mason/packages/lua-language-server/extension/server/bin/lua-language-server: cannot execute: required file not found\n"
+[START][2023-06-07 02:43:23] LSP logging initiated
+[WARN][2023-06-07 02:43:23] ...lsp/handlers.lua:487	"02:43:23.974 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[START][2023-06-07 02:44:31] LSP logging initiated
+[WARN][2023-06-07 02:44:31] ...lsp/handlers.lua:487	"02:44:31.917 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[START][2023-06-07 02:57:09] LSP logging initiated
+[WARN][2023-06-07 02:57:09] ...lsp/handlers.lua:487	"02:57:09.910 WARNING ⛔️ ShellCheck: disabling linting as no executable was found at path 'shellcheck'"
+[WARN][2023-06-07 03:00:41] ...lsp/handlers.lua:487	"03:00:41.655 WARNING ⛔️ Error while parsing file:///root/mirror/install.sh: syntax error"
+[WARN][2023-06-07 03:00:56] ...lsp/handlers.lua:487	"03:00:56.631 WARNING ⛔️ Error while parsing file:///root/mirror/install.sh: syntax error"

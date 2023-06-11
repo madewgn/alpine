@@ -11,21 +11,23 @@ setlocal fen
 silent! normal! zE
 2,23fold
 1,24fold
-29,57fold
-27,59fold
-64,130fold
-63,133fold
-138,163fold
-136,165fold
-173,201fold
-171,203fold
+29,50fold
+28,51fold
+58,86fold
+56,88fold
+93,159fold
+92,162fold
+167,192fold
+165,194fold
+202,230fold
+200,232fold
 let &fdl = &fdl
-let s:l = 186 - ((22 * winheight(0) + 15) / 31)
+let s:l = 32 - ((17 * winheight(0) + 18) / 37)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 186
-normal! 021|
+keepjumps 32
+normal! 012|
 let &g:so = s:so_save | let &g:siso = s:siso_save
 doautoall SessionLoadPost
 " vim: set ft=vim :

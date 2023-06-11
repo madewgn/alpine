@@ -13,7 +13,7 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +136 bot.py
+badd +22 bot.py
 argglobal
 %argdel
 edit bot.py
@@ -28,31 +28,32 @@ setlocal fdn=20
 setlocal fen
 silent! normal! zE
 8,13fold
-18,19fold
-23,24fold
-30,38fold
-29,39fold
-44,47fold
-43,48fold
-54,61fold
-53,62fold
-69,88fold
-68,89fold
-108,117fold
-96,118fold
-135,144fold
-123,145fold
-164,173fold
-152,174fold
-194,204fold
-181,205fold
+20,24fold
+30,31fold
+35,36fold
+42,50fold
+41,51fold
+56,59fold
+55,60fold
+66,73fold
+65,74fold
+81,103fold
+80,104fold
+123,132fold
+111,133fold
+150,159fold
+138,160fold
+179,188fold
+167,189fold
+209,219fold
+196,220fold
 let &fdl = &fdl
-let s:l = 136 - ((32 * winheight(0) + 25) / 51)
+let s:l = 22 - ((12 * winheight(0) + 25) / 50)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 136
-normal! 012|
+keepjumps 22
+normal! 048|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
@@ -65,7 +66,6 @@ if filereadable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
-nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :

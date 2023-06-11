@@ -13,15 +13,13 @@ if &shortmess =~ 'A'
 else
   set shortmess=aoO
 endif
-badd +30 plugins/inline.py
-badd +39 ~/prem/plugins/main.py
-badd +10 ~/prem/plugins/callback.py
-badd +47 ~/prem/plugins/trial.py
+badd +32 plugins/format.py
+badd +305 ~/prem/plugins/ssg.py
 argglobal
 %argdel
-edit ~/prem/plugins/callback.py
+edit ~/prem/plugins/ssg.py
 argglobal
-balt plugins/inline.py
+balt plugins/format.py
 setlocal fdm=manual
 setlocal fde=0
 setlocal fmr={{{,}}}
@@ -31,45 +29,58 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-4,9fold
-15,17fold
-32,43fold
+6,10fold
+5,11fold
+14,19fold
+13,20fold
+25,33fold
+24,34fold
+38,40fold
+37,41fold
+48,50fold
+54,57fold
+52,58fold
 61,63fold
-71,73fold
-79,81fold
-90,92fold
-104,106fold
-99,112fold
-123,129fold
-139,145fold
-58,145fold
-54,145fold
-149,151fold
-156,157fold
-172,174fold
-167,176fold
-183,185fold
-196,198fold
-207,209fold
-219,221fold
-230,232fold
-260,282fold
-255,282fold
-240,282fold
-239,284fold
-308,329fold
-303,329fold
-290,329fold
-289,331fold
-178,331fold
-163,331fold
+67,69fold
+66,69fold
+65,69fold
+70,92fold
+94,107fold
+110,126fold
+128,140fold
+142,154fold
+157,171fold
+174,177fold
+60,177fold
+184,186fold
+190,192fold
+189,192fold
+188,192fold
+195,202fold
+205,212fold
+215,222fold
+183,222fold
+225,227fold
+231,233fold
+230,233fold
+229,233fold
+235,257fold
+259,262fold
+264,277fold
+279,291fold
+293,306fold
+309,322fold
+324,327fold
+224,327fold
+330,333fold
+329,333fold
 let &fdl = &fdl
-let s:l = 42 - ((13 * winheight(0) + 29) / 59)
+let s:l = 305 - ((43 * winheight(0) + 29) / 59)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 42
-normal! 0
+keepjumps 305
+normal! 040|
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

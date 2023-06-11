@@ -13,20 +13,20 @@ silent! normal! zE
 9,13fold
 16,17fold
 19,25fold
-33,35fold
-29,37fold
-39,41fold
-48,50fold
-44,52fold
-55,59fold
+36,38fold
+32,40fold
+42,44fold
+51,53fold
+47,55fold
+58,62fold
+68,69fold
 let &fdl = &fdl
-let s:l = 32 - ((31 * winheight(0) + 25) / 51)
+let s:l = 28 - ((18 * winheight(0) + 19) / 38)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 32
-normal! 013|
+keepjumps 28
+normal! 0
 let &g:so = s:so_save | let &g:siso = s:siso_save
-nohlsearch
 doautoall SessionLoadPost
 " vim: set ft=vim :

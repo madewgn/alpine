@@ -43,17 +43,17 @@ silent! normal! zE
 178,331fold
 163,331fold
 let &fdl = &fdl
-163
-normal! zo
-167
-normal! zo
-let s:l = 172 - ((10 * winheight(0) + 15) / 31)
+let s:l = 172 - ((17 * winheight(0) + 25) / 51)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
 keepjumps 172
-normal! 038|
+let s:c = 38 - ((18 * winwidth(0) + 16) / 33)
+if s:c > 0
+  exe 'normal! ' . s:c . '|zs' . 38 . '|'
+else
+  normal! 038|
+endif
 let &g:so = s:so_save | let &g:siso = s:siso_save
-nohlsearch
 doautoall SessionLoadPost
 " vim: set ft=vim :
